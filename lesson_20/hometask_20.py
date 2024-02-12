@@ -25,3 +25,4 @@ with open(filename, mode="r") as file:
                 logger.warn(f"Heartbeat in index: {file_index} and key: {heartbeat_key}, did not take more than 32 seconds")
             elif diff_in_seconds >= 32:
                 logger.error(f"Heartbeat in index: {file_index} and key: {heartbeat_key}, took 32 seconds or more")
+

@@ -25,3 +25,4 @@ file_handler.setFormatter(formatter)
 # Додавання обробників до логера
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
